@@ -1,12 +1,13 @@
 /* -------Start Influencer Section-------- */
-body{
+main{
     margin-left: 80px;
     margin-top: 70px ;}
+header{
+        margin-left: 60px;}
 
 section{
     width: 1060px;
-    margin-top: 3em;
-    height: 1000px;}
+    margin-top: 3em;}
 
 .influencer-container{
     display: flex;
@@ -48,3 +49,100 @@ section{
     margin-left: 10px;}
 
 /* -------End Influencer Section-------- */
+ 
+/* --------------------------------------
+ ------Products Section start------------ */
+ .products{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+  margin-left: 20px;
+  width: 300px;}
+
+.product{
+    background: rgba(100, 234, 252, 0.034);
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-shadow: 5px 2px rgba(202, 216, 224, 0.075);}
+
+.Container-title{
+      text-align: center;}
+ 
+ .product-title{
+     margin-bottom: 0px;}
+ 
+ .product-prize{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;}
+
+ .fa-star{
+    color: rgba(247, 163, 7, 0.938);
+    font-size: 10px;}
+
+ .rating-number{
+    font-weight: 800;
+    margin-left: 7px;
+    font-size: 14px;}
+
+ .product-detail{
+    font-size: 18px;
+    line-height: 30px;
+    width: 300px;
+    margin-top: 0px;}
+
+ .products-anchor{
+     position: relative;
+     left: 1000px;
+     top: 20px;
+     text-decoration: none;
+     font-weight: 900;
+     font-size: 20px; }
+
+/* Products Section end */
+
+/* footer start */
+footer{
+    background: rgba(10, 10, 212, 0.897);
+    width: 100%;
+  height: 200px;
+    color: white;
+    text-align: center;}
+    
+    .footer-info{
+        margin-top: 50px;
+    }
+    .footer-title{
+        padding-top: 50px;}
+        /* footer start */
+
+        /* media quries----
+        ----------------*/
+      /* -----------mobile devices----- */
+      @media only screen and (max-width:576px) {
+         .influencer-{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr); }
+              .influencer-banner img{
+                  width: 30%;
+                 margin-top: 120px; }
+                 .influencer-info{
+                     width: 30%;
+                     line-height: 4em;
+                 }
+                 .products{
+                     display: grid;
+                     grid-template-columns: repeat(1,1fr);
+                 }
+                 footer{
+                     width: 100%;
+                     
+                 }
+      }
+
+
+
+
